@@ -1,0 +1,20 @@
+DigiNumber Algorithm
+
+Algorithm for method digitfrequency():
+
+1. Store string value of number.
+2. Create two arrays to hold digits and frequency
+3. Iterate through all digits
+4. 	 If the current digit is at its last index in the number
+5.		 Iterate through all digits from that digit to the start of the number
+6.			 If a digit is equal to the digit 
+7.				 Increment frequency counter variable
+8.	     Add the digit to the array, and its corresponding frequency
+9.	     Reset counter variables
+10.Print out the corresponding elements of the digit array and the frequency array
+
+Algorithm for method sumDigits(long n):
+
+1. If the number is 0, return 0.
+2. Else add the last digit of n to the sum of the digits of n/10.
+ 
