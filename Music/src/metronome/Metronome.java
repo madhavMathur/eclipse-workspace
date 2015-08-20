@@ -41,6 +41,11 @@ public class Metronome {
 		long delay = 0;
 		long start;
 		frame.setTitle("Metronome v1.2| Madhav Mathur | BPM: "+BPM+" in "+beats+"/4 time");
+		count.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 100));
+		count.setText("Ready?");
+		Thread.sleep(1000);
+		count.setText("");
+		count.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 300));
 		while(true) {
 			 start = System.currentTimeMillis();
 	    	 panel.setBackground(new Color((int) (Math.random() * 256), (int) (Math.random() * 256), (int) (Math.random() * 256)));
